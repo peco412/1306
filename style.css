@@ -74,4 +74,9 @@ body{
         font-size: 12px; /* Giảm kích thước chữ để phù hợp màn hình nhỏ */
         text-align: center;
     }
+
+    .main H1{
+        font-size: 36 px;
+        text-align: center;
+    }
 }
