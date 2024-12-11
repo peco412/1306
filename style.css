@@ -1,7 +1,7 @@
 body{
     background-color: #eee8aa;
     margin: 0;
-    font-family: Poppins;
+    font-family: Helvetica;
 }
 .main{
     min-height: 100vh;
@@ -30,6 +30,7 @@ body{
     padding: 20px;
     box-shadow: 0 30px 20px #5555;
 }
+
 .item img{
     width: 100%;
     height: 200px;
@@ -45,4 +46,32 @@ body{
     color: #000000; /* Màu chữ */
     font-weight: bold; /* Đậm chữ */
     margin-bottom: 10px;
+}
+
+.main H1{
+    font-family: 'Helvetica', sans-serif; /* Kiểu chữ */
+    font-size: 48px; /* Cỡ chữ */
+    color: #ffffff; /* Màu chữ */
+    font-weight: bold; /* Đậm chữ */
+}
+
+@media screen and (max-width: 828px) {
+    .main {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .item {
+        padding: 10px; /* Thu nhỏ padding để phù hợp với màn hình nhỏ hơn */
+        width: 90%;
+    }
+    .item img {
+        width: 100%;
+        height: 150px; /* Điều chỉnh chiều cao ảnh */
+    }
+    .item p {
+        font-size: 12px; /* Giảm kích thước chữ để phù hợp màn hình nhỏ */
+        text-align: center;
+    }
 }
